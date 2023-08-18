@@ -1,0 +1,6 @@
+releases:
+- name: prom-norbac-ubuntu
+  namespace: prometheus
+  chart: ./testaaa 
+  values:
+    - subvalue.yaml.gotmpl 

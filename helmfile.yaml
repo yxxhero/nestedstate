@@ -1,0 +1,4 @@
+helmfiles:
+- path: subhelmfile.yaml
+  values:
+  - additional.values.yaml
